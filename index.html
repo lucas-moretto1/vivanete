@@ -19,7 +19,7 @@
     .cabecalho{display: flex; justify-content:space-between; align-items:center; }
     .subtitle { color: rgba(255,255,255,0.72); font-size: 14px; margin-top: 4px; }
     .btn { display: inline-block; padding: 14px 22px; border-radius: 16px; font-weight: 700; transition: 0.2s; }
-    .brand {width: 120px; height: 120px;}
+    .brand {width: 250px; height: 150px;}
     .btn-green {border: 1px solid #76a639; background: #76a639; color: #000000; }
     .btn-green:hover {background: #000000; border: 1px solid #76a639; border-color: #76a639; color: #76a639; }
     .btn-outline { border: 1px solid rgba(255,255,255,0.22); color: #ffffff; }
@@ -107,8 +107,9 @@
       .section { padding: 70px 0;}
       .btn{ display: flex; justify-content: center;}
       .cta-actions{ display:flex; justify-content: center; gap: 10px 0;}
-      /* .btn-green {padding: 14px 20px;} */
-
+      .btn-green {padding: 14px 20px;}
+      .cabecalho{display: flex; flex-direction: column;}
+      .area .btn.btn-dark{margin-top: 10px;}
     }
   </style>
 </head>
@@ -117,8 +118,11 @@
     <div class="container nav">
       <div class="navbox">
         <div class="cabecalho">
-        <img class="brand" src="logo.png" alt="logo-vivanete">
+        <img class="brand" src="logo1.png" alt="logo-vivanete">
+        <div class="area">
         <a class="btn btn-green" href="https://wa.me/554936301400" target="_blank">Falar no WhatsApp</a>
+        <a class="btn btn-dark" target="_blank" href="https://central.vivainternet.hubsoft.com.br/">Acessar área do cliente</a>
+        </div>
       </div>
     </div>
 
